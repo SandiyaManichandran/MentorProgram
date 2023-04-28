@@ -1,7 +1,9 @@
+package mini.project.car;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Car
+public class NewCar
 {
     private String color;
     private String brandName;
