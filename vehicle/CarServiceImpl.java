@@ -3,7 +3,8 @@ package vehicle;
 
 import java.util.*;
 
-public class CarServiceImpl {
+public class CarServiceImpl
+{
     public List<Car> addCar()
 
     {
@@ -52,6 +53,18 @@ public class CarServiceImpl {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 //    public void mapping(List<Car> carList)
 //    {
 //        Map<String, Car> carMap=new HashMap<String, Car>();
@@ -61,4 +74,15 @@ public class CarServiceImpl {
 //                System.out.println(caa.getColor() + " " + caa.getBrandName() + " " + caa.getChasisNumber() + " " + caa.getFeatures());
 //            }
 //        }
+//    }
+
+//    public void showCar(List<Car> carList) {
+//        Map<String, Car> carMap = new HashMap<String, Car>();
+//        for (Car cab : carList) {
+//            carMap.put("chasis", cab);
+//            for (Car caa : carMap.values()) {
+//                System.out.println(caa.getColor() + " " + caa.getBrandName() + " " + caa.getChasisNumber() + " " + caa.getFeatures());
+//            }
+//        }
+//
 //    }
