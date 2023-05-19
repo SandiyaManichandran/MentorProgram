@@ -8,13 +8,6 @@ public class Bike {
     private String brandName;
     private String chasisNumber;
     private List<String> features = new ArrayList<>();
-
-//    public Bike(String color, String brandName, String chasisNumber, List<String> featureList) {
-//        this.color = color;
-//        this.brandName = brandName;
-//        this.chasisNumber = chasisNumber;
-//        this.features = features;
-//    }
     public Bike(String color, String brandName, String chasisNumber, List<String> featureList) {
     this.color = color;
     this.brandName = brandName;
@@ -56,6 +49,7 @@ public class Bike {
     public void setFeatures(List<String> features) {
         this.features = features;
     }
+
 
 
 }
